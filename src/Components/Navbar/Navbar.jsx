@@ -14,6 +14,7 @@ const Navbar = () => {
           <Link style={linkStyles} to='/'>home</Link>
           <Link style={linkStyles} to='/contact'>Contact</Link>
           <Link style={linkStyles} to='/about'>About</Link>
+          <Link style={linkStyles} to='/posts'>Posts</Link>
           <Link style={linkStyles} to='/users'>Users</Link>
         </ul>
 
