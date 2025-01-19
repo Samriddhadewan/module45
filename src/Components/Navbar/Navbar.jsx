@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-
+import {  NavLink } from "react-router-dom"
+import '../Navbar/navbar.css'
 const Navbar = () => {
 
 
@@ -11,11 +11,11 @@ const Navbar = () => {
 
         <h1>NavBar</h1>
         <ul>
-          <Link style={linkStyles} to='/'>home</Link>
-          <Link style={linkStyles} to='/contact'>Contact</Link>
-          <Link style={linkStyles} to='/about'>About</Link>
-          <Link style={linkStyles} to='/posts'>Posts</Link>
-          <Link style={linkStyles} to='/users'>Users</Link>
+          <NavLink style={linkStyles} to='/'>home</NavLink>
+          <NavLink style={linkStyles} to='/contact'>Contact</NavLink>
+          <NavLink style={linkStyles} to='/about'>About</NavLink>
+          <NavLink style={linkStyles} to='/posts'>Posts</NavLink>
+          <NavLink style={linkStyles} to='/users'>Users</NavLink>
         </ul>
 
 
