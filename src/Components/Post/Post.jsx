@@ -11,11 +11,11 @@ const Post = ({post}) => {
     <div style={postStyle}>
         <h4>post title:{title}</h4>
         <h4>post id:{userId}</h4>
-        <Link to={`/post/${id}`}>
+    <Link to={`/post/${id}`}>
         <button>Click here for details</button>
         </Link>
     </div>
   )
 }
 
-export default Post
+export default Post 
